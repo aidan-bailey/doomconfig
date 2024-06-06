@@ -51,3 +51,8 @@
 
 (package! copilot
   :recipe (:host github :repo "copilot-emacs/copilot.el" :files ("*.el" "dist")))
+
+(package! clingo-mode
+  :recipe (:host github :repo "llaisdy/clingo-mode" :files ("*.el" "dist"))
+)
+

@@ -23,8 +23,8 @@ This function is called by `org-babel-execute-src-block'."
       (insert-file-contents tmp-out-file)
       (buffer-string))))
 
-(unless (package-installed-p 'clingo-mode)
-  (package-refresh-contents)
-  (package-install 'clingo-mode))
+;;(unless (package-installed-p 'clingo-mode)
+;;  (package-refresh-contents)
+;;  (package-install 'clingo-mode))
 
-(add-to-list 'org-babel-load-languages '(clingo . t))
+;;(add-to-list 'org-babel-load-languages '(clingo . t))
